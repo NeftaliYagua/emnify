@@ -2,9 +2,9 @@
 
 namespace LaravelLatam\Emnify;
 
+use LaravelLatam\Emnify\Commands\EmnifyCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use LaravelLatam\Emnify\Commands\EmnifyCommand;
 
 class EmnifyServiceProvider extends PackageServiceProvider
 {

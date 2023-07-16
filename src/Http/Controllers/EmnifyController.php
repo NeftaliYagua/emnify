@@ -7,7 +7,6 @@ use LaravelLatam\Emnify\Http\Middleware\VerifyRedirectUrl;
 
 class EmnifyController extends Controller
 {
-
     /**
      * Create a new PaymentController instance.
      *
@@ -26,7 +25,7 @@ class EmnifyController extends Controller
      */
     public function index()
     {
-        
+
         return view('Emnify::index');
         /* [
             'EmnifyKey' => config('cashier.key'),
@@ -44,6 +43,7 @@ class EmnifyController extends Controller
             'redirect' => request('redirect'),
         ]);*/
     }
+
     public function show($id)
     {
         return $id;
